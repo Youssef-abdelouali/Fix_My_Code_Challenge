@@ -1,6 +1,13 @@
 #!/usr/bin/python3
 """ FizzBuzz
+
+This script implements the FizzBuzz problem, which prints numbers from 1 to n separated by a space.
+
+- For multiples of three, it prints "Fizz" instead of the number.
+- For multiples of five, it prints "Buzz".
+- For numbers that are multiples of both three and five, it prints "FizzBuzz".
 """
+
 import sys
 
 
@@ -8,9 +15,11 @@ def fizzbuzz(n):
     """
     FizzBuzz function prints numbers from 1 to n separated by a space.
 
-    - For multiples of three print "Fizz" instead of the number and for
-      multiples of five print "Buzz".
-    - For numbers which are multiples of both three and five print "FizzBuzz".
+    Parameters:
+        n (int): The upper limit for printing numbers.
+
+    Returns:
+        None: Prints the FizzBuzz sequence.
     """
     if n < 1:
         return
